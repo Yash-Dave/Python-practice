@@ -3,7 +3,7 @@ from win10toast import ToastNotifier
 import json
 import time
 
-# Covid-19
+# UPDATE Covid-19-20
 def update():
     r = requests.get(' https://coronavirus-19-api.herokuapp.com/all')
     data = r.json()
